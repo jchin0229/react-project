@@ -2,7 +2,9 @@ Setup React Development Environment using Yarn and Webpack.
 
 This project is created from the following pages:
 https://codeburst.io/yet-another-beginners-guide-to-setting-up-a-react-project-part-1-bdc8a29aea22
+
 and
+
 https://codeburst.io/yet-another-beginners-guide-to-setting-up-a-react-project-part-2-5d3151814333
 
 ```
@@ -11,7 +13,7 @@ mkdir react-project && cd react-project
 yarn init (setup project info)
 yarn add react react-dom
 yarn add -D webpack webpack-dev-server webpack-cli
-``
+```
 
 create index.html and index.js
 - Note: the webpack-web-server has bundle.js as main.js
@@ -72,5 +74,7 @@ ReactDOM.render(
 );
 ```
 
-Note: to generate main.js for dist, use the following command.
-./node_modules/.bin/webpack -d
+Note: to generate main.js for distribution, use the following command.
+```
+yarn webpack-cli -d
+```
